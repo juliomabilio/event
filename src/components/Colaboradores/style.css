@@ -1,0 +1,129 @@
+.colaborador{
+    width: 100%;
+    padding: 80px 0;
+    background-image:linear-gradient(rgba(32, 2, 7, 0.6),rgba(116, 11, 28, 0.5)), url(../../images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.colaborador .row{
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.titulo{
+   margin:0 auto 0 auto;
+   text-align: center;
+   color: #fff;
+   border-bottom: 2px solid rgb(237 237 33);;
+   width: 250px;
+   letter-spacing: 2px;
+}
+
+
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    transform: scale(0.7);
+    border-radius: 8px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 13px 1px rgba(0,0,0,0.9);
+}
+
+
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nome{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(237 237 33);;
+    position: absolute;
+    top: 90px;
+    letter-spacing: 2px;
+}
+
+.prof{
+    font-size: 25px;
+    color: #555555;
+    position: absolute;
+    top: 140px;
+}
+
+.bio{
+    position: absolute;
+    top: 185px;
+    color: #555555;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.divider{
+  position: absolute;
+  background-color: #959595;
+  width: 1.5px;
+  width: 50px;
+  top: 190px;
+}
+
+.info > button{
+    position: absolute;
+    bottom: 10px;
+    background-color: rgb(237 237 33);;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    cursor: pointer;
+    color: #fff;
+    transition: .3s ease;
+}
+
+
+.img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: .8s ease;
+    top: 0;
+}
+
+.card:hover .img{
+    transform: scale(0.4,0.35) translateY(-580px);
+    border-radius: 50%;
+    background-size: 100% 120%;
+    background-position: 0 -30px;
+}
+
+
+.card > a{
+    position: absolute;
+    bottom: -60px;
+    font-size: 20px;
+    color: rgb(237 237 33);;
+    background-color: #fff;
+    width: 100%;
+    padding: 12px 0;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.9);
+    transition: .5s ease;
+    letter-spacing: 3px;
+}
+
+.card > a:hover{
+    border: 2px solid rgb(237 237 33);;
+    background: transparent;
+}
