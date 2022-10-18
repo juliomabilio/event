@@ -33,3 +33,9 @@
         width: 100%;
     }
  }
+
+ @media(min-width:500px) and (max-width:992px){
+    .visão,.missão{
+        width: 80%;
+    }
+ }

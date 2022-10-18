@@ -22,7 +22,7 @@ const Colaborador = () => {
               <button>Contact</button>
             </div>
             <StaticImage src='../../images/img01.jpg' placeholder="blurred" alt="imagem do apresentador" className='img'/>
-            <a href='#'>Especialidade</a>
+            <a href='#'>ESPECIALIDADE</a>
           </div>
           
           <div className='card'>
@@ -37,7 +37,7 @@ const Colaborador = () => {
               <button>Contact</button>
             </div>
             <StaticImage src='../../images/img02.jpg' placeholder="blurred" alt="imagem do apresentador" className='img'/>
-            <a href='#'>Especialidade</a>
+            <a href='#'>ESPECIALIDADE</a>
           </div>
 
           <div className='card'>
@@ -53,7 +53,7 @@ const Colaborador = () => {
               <button>Contact</button>
             </div>
             <StaticImage src='../../images/img03.jpg' placeholder="blurred" alt="imagem do apresentador" className='img'/>
-            <a href='#'>Especialidade</a>
+            <a href='#'>ESPECIALIDADE</a>
           </div>
 
         </div>

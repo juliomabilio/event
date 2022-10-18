@@ -16,9 +16,8 @@ const Main = () => {
           < div className='conteudo-main'>
             <h1>AONOG/<span>AOPF</span></h1>
             <div className='date'>
-              <span className='dt'> <AiOutlineCalendar/> 8 & 9 Dezembro 2022</span>
-              <br></br>
-              <span className='local'> <GoLocation /> Hotel Palmeiras</span>
+              <span> <AiOutlineCalendar/> 8 & 9 Dezembro 2022</span>
+              <span> <GoLocation /> Hotel Palmeiras</span>
               </div>
             {/* <div className='boxs row'>
               <div className='box'> 

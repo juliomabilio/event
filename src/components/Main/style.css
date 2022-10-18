@@ -53,6 +53,8 @@
 }
 
 .date{
+    display: flex;
+    flex-direction: column;
     background: transparent;
     width: 400px;
     padding: .5rem;
@@ -60,15 +62,15 @@
     text-align: center;
 }
 
-span.dt{
+.date span:nth-child(1){
     color: #fff;
-    font-size: 25px;
+    font-size: 28px;
     position: relative;
 }
 
-span.local{
+.date span:nth-child(2){
     color: rgba(255,255,255,.8);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* .boxs{
@@ -99,20 +101,19 @@ span.local{
 .btn{
     background-color: red;
     padding: 1rem 2rem;
-    border: none;
-    /* border-radius: 10px; */
-    cursor: pointer;
     margin-top: 1rem;
+    border: none;
     font-weight: bold;
     -webkit-box-shadow: 0px 5px 9px -2px rgba(0,0,0,0.7);
+    cursor: pointer;
     transition: .5s ease;
-    letter-spacing: 1.5px;
 }
 
 .btn a{
     font-size: 20px;
     text-decoration: none;
     color: #fff;
+    letter-spacing: 1.5px;
 }
 
 
@@ -138,7 +139,9 @@ span.local{
         width: 120px;
         margin-bottom: 1rem;
     }
-
+    .conteudo-main{
+        margin-top: 2rem;
+    }
     .conteudo-main h1 {
         font-size: 37px;
     }
@@ -151,11 +154,11 @@ span.local{
         font-size: 20px;
     }
 
-    span.dt{
+    .date span:nth-child(1){
         font-size: 20px;
     }
 
-    span.local{
+    .date span:nth-child(2){
         font-size: 18px;
     }
     .box{
@@ -164,5 +167,37 @@ span.local{
 
     .conteudo-main p{
         max-width: 100%;
+    }
+}
+
+
+@media(min-width:500px) and (max-width:992px){
+    .conteudo-main::after{
+        font-size: 25px;
+    }
+
+    .conteudo-main h1 {
+        font-size: 70px;
+    }
+
+    .date span:nth-child(1){
+        font-size: 32px;
+    }
+
+    .date span:nth-child(2){
+        font-size: 25px;
+    }
+
+    .conteudo-main{
+        margin-top: 12rem;
+    }
+
+
+    .conteudo-main p{
+        max-width: 80%;
+    }
+
+    .btn a {
+        font-size: 30px;
     }
 }

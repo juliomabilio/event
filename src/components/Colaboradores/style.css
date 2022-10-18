@@ -127,3 +127,12 @@
     border: 2px solid rgb(237 237 33);;
     background: transparent;
 }
+
+
+@media(min-width:500px) and (max-width:992px){
+
+    .card{
+        height: 480px;
+        width: 500px;
+    }   
+}
