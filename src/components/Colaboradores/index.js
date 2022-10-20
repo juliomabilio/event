@@ -10,7 +10,7 @@ const Colaborador = () => {
           <h2>APRESENTADORES</h2>
         </div>
         <div className='row'>
-          <div className='card'>
+          {/* <div className='card'>
             <div className='info'>
               <div className='nome'>Nome</div>
               <div className='prof'>Especialidade</div>
@@ -54,6 +54,16 @@ const Colaborador = () => {
             </div>
             <StaticImage src='../../images/img03.jpg' placeholder="blurred" alt="imagem do apresentador" className='img'/>
             <a href='#'>ESPECIALIDADE</a>
+          </div> */}
+
+          <div className='ui-card'>
+          <StaticImage src='../../images/img03.jpg' placeholder="blurred" alt="imagem do apresentador" className='img'/>
+          <h3>Nome</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur
+               adipiscing elit, sed do eiusmod tempor 
+               incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div className='esp'>Especialidade</div>
           </div>
 
         </div>
