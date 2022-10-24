@@ -17,7 +17,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: .3rem;
+    gap: .4rem;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -106,7 +106,7 @@
         margin-bottom: 1rem;
     }
     .conteudo-main{
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
     .conteudo-main h1 {
         font-size: 37px;
