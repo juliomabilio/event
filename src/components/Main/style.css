@@ -10,14 +10,14 @@
 }
 
 .logo{
-    width: 150px;
+    width: 135px;
 }
 
 .conteudo-main{
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .3rem;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -36,17 +36,11 @@
 }
 
 .conteudo-main h1{
-    font-size: 60px;
+    font-size: 55px;
     letter-spacing: 4px;
     border: .5px solid #fff;
     background: transparent;
     padding: .5rem 1.5rem;
-}
-.conteudo-main p{
-    margin-top: 5rem;
-    max-width: 48%;
-    text-align: center;
-    font-size: 18px;
 }
 .conteudo-main span{
     color: yellow;
@@ -64,56 +58,38 @@
 
 .date span:nth-child(1){
     color: #fff;
-    font-size: 28px;
+    font-size: 25px;
     position: relative;
 }
 
 .date span:nth-child(2){
     color: rgba(255,255,255,.8);
-    font-size: 20px;
+    font-size: 22px;
+}
+.conteudo-main p{
+    margin-top: 3rem;
+    max-width: 52%;
+    text-align: center;
+    font-size: 18px;
 }
 
-/* .boxs{
-    gap: 1rem;
-}
 
-.box{
-    width: 90px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: .3rem;
-    padding: 1.rem;
-    background: red;
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 5px 9px -2px rgba(0,0,0,0.7);
-}
-.box span{
-    color: #fff;
-    font-size: 2.5rem;
-}
-.box small{
-    font-size: 12px;
-
-} */
 
 .btn{
     background-color: red;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
     border: none;
-    font-weight: bold;
+    font-weight: 600;
     -webkit-box-shadow: 0px 5px 9px -2px rgba(0,0,0,0.7);
     cursor: pointer;
-    transition: .5s ease;
+    transition: .4s ease;
 }
 
 .btn a{
     font-size: 20px;
-    text-decoration: none;
     color: #fff;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 
@@ -123,16 +99,6 @@
 }
 
 
-.cont{
-    background-image: url(../../images/background1.jpg);
-    border-radius: 30px;
-    background-repeat: no-repeat;
-    opacity: .2;
-    background-size: cover;
-    padding-top: 5rem;
-    width: 70%;
-    height: 70vh;
-}
 
 @media(max-width:500px){
     .logo {

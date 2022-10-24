@@ -1,10 +1,24 @@
 import React from 'react'
 import './style.css'
+import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => {
   return (
     <div className='about'>
       <div className='container'>
+        <div className='row abt'>
+          <div className='cont-img'>
+        <StaticImage src='../../images/imgabout.jpg' placeholder="blurred" alt="imagem do apresentador" className='imagem'/>
+        </div>
+        <div className='cont'>
+          <h2>Acerca do Evento</h2>
+          <p>É um evento anual que visa congregar todos os players e participantes das TICs através
+                 de Conferência & Workshop com o objectivo de partilharem conhecimentos e boas praticas
+                  sobre o sector de TI.
+          </p>
+          
+        </div>
+        </div>
         <div className='row'>
         <div className='missão'>
           <h2>Nossa missão</h2>

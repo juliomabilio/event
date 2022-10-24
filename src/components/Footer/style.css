@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     padding: 1rem;
-    background: #000;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(32,3,11,1) 91%);
     color: #fff;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .links:hover{
-    color: yellow;
+    color: red;
 }
 
 .footer .baixo{
