@@ -8,12 +8,11 @@
     background-attachment: fixed;
 }
 
-.about .row{
-    gap: 2.5rem;
-    justify-content: center;
+.row.first{
     align-items: center;
-    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
+
 .cont-img{
     width: 40%;
 }
@@ -35,10 +34,6 @@
     
 }
 
-.abt{
-    padding-bottom: 4rem;
-    flex-wrap: wrap;
-}
 
 .visão,.missão{
     width: 40%;
@@ -54,7 +49,7 @@
     border-bottom: 1px solid #fff;
  }
 
- @media(max-width:500px){
+ /* @media(max-width:500px){
     .visão,.missão{
         width: 100%;
     }
@@ -74,4 +69,45 @@
     .visão,.missão{
         width: 80%;
     }
+ } */
+
+
+ @media(max-width:885px){
+    .cont-img {
+        width: 70%;
+    }
+    .cont {
+        width: 70%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .cont h2{
+        margin: 1.5rem auto;
+    }
+ }
+
+ @media(max-width:755px){
+    .visão,.missão{
+        width: 70%;
+    }
+ }
+
+ @media(max-width:600px){
+    .cont-img {
+        width: 100%;
+    }
+    .cont {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+ }
+
+
+ @media(max-width:500px){
+
+    .visão,.missão{
+        width: 100%;
+    }
+
  }

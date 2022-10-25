@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='about'>
       <div className='container'>
-        <div className='row abt'>
+        <div className='row first'>
           <div className='cont-img'>
         <StaticImage src='../../images/imgabout.jpg' placeholder="blurred" alt="imagem do apresentador" className='imagem'/>
         </div>

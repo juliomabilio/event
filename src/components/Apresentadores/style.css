@@ -11,7 +11,7 @@
 .apresentadores .row{
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 
 .apresentadores h2{

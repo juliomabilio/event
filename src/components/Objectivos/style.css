@@ -36,8 +36,19 @@
     width: 35px;
 }
 
-@media(max-width:500px){
+/* @media(max-width:500px){
     .objectivos p {
         width: 70%;
     }
-}
+} */
+
+@media(max-width:755px){
+    .objectivos p {
+        width: 65%;
+    }
+ }
+@media(max-width:500px){
+    .objectivos p {
+        width: 70%%;
+    }
+ }
