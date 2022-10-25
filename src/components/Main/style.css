@@ -97,6 +97,35 @@
     background: transparent;
 }
 
+@media(max-width:915px){
+    .logo{
+        width: 12%;
+    }
+    .conteudo-main{
+        margin-top: 1.3rem;
+    }
+    .conteudo-main::after{
+        font-size: 16px;
+    }
+    .conteudo-main h1{
+        font-size: 40px;
+    }
+    .date span:nth-child(1){
+        font-size: 20px;
+    }
+    .date span:nth-child(2){
+        font-size: 18px;
+    }
+    .conteudo-main p {
+        max-width: 65%;
+        margin-top: 0;
+    }
+
+    .btn a {
+        font-size: 15px;
+    }
+}
+
 @media(max-width:500px){
     .logo{
         width: 25%;
