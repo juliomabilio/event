@@ -12,6 +12,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+    margin-left: 2rem;
 }
 .objectivos h2{
     text-align: center;
