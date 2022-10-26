@@ -181,13 +181,11 @@
         font-size: 25px;
     }
 }
-
 @media(max-width:540px){
     .conteudo-main h1{
         font-size: 50px;
     }
 }
-
 @media(max-width:500px){
     .logo{
         width: 25%;
@@ -215,7 +213,6 @@
         font-size: 16px;
     }
 }
-
 @media(max-width:420px){
     .logo{
         width: 25%;
@@ -270,7 +267,6 @@
         font-size: 18px;
     }
 }
-
 @media(max-width:375px){
     .logo{
         width: 33%;
@@ -282,9 +278,6 @@
         margin-top: 2rem;
     }
 }
-
-
-
 @media(max-width:330px){
     .logo{
         width: 28%;
